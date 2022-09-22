@@ -1,0 +1,103 @@
+body,html{ 
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.form-box{
+    position: relative;
+    top: 30px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background: #D7CCCC;
+    text-align: right;
+    border-radius: 30px;
+}
+.form-title{
+    color: rgba(80, 80, 80, 1);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
+}
+.form-box input[type="text"],
+.form-box input[type="password"]{
+    border: none;
+    background: none;
+    display: block;
+    margin:20px auto;
+    padding: 14px 10px;
+    text-align: left;
+    outline: none;
+}
+.form-box input[type="text"]{
+    position: absolute;
+    left: 70px;
+    bottom: 200px;
+}
+
+.form-box input[type="password"]{
+    position: absolute;
+    left: 70px;
+    bottom: 135px;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    outline: none;
+    border: none;
+}
+.titulo{
+    color:rgba(62, 65, 68, 1) ;
+    text-align: left;
+    position: relative;
+    right: 300px;
+    bottom: 200px;
+}
+.form-box button[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background: #808080;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    color: white;
+    font-weight: bold;
+}
+.form-box button[type="submit"]:hover{
+    background: none;
+    border: 2px solid #808080 ;
+}
+
+
+.linea{
+    height: 2px;
+    width: 250px;
+    background: #808080;
+    position: absolute;
+    bottom: 230px;
+    right: 50px;
+    
+}
+.linea1{
+    height: 2px;
+    width: 250px;
+    background: #808080;
+    position: absolute;
+    bottom: 168px;
+    right: 50px;
+    
+}
